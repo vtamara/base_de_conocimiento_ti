@@ -2,9 +2,7 @@
 
 Autor: Vladimir Támara
 
-Contribuciones: David Castillo
-
-Actualización: Daniel Cardona
+Contribuciones: David Castillo, Daniel Cardona
 
 Dirigido a: Gestor de soporte, Adminsitrador de red y webmaster, Asesor en TI 
 
