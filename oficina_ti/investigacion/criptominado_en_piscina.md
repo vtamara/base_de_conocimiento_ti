@@ -70,27 +70,25 @@ Usa un minero disponible en  <https://github.com/vtamara/xmrig> que se ha modi
 
 Para instalar desde la terminal
 
-      sudo apt update; sudo apt dist-upgrade;
+         sudo apt update; sudo apt dist-upgrade;
 
-      sudo apt install git cmake libuv1-dev libssl-dev libmicrohttpd-dev build-essential libhwloc-dev
-      mkdir -p ~/comp/monero
-      cd ~/comp/monero
-      git clone https://github.com/vtamara/xmrig
-      cd xmrig
-      git checkout cinep
-
-      cd build
-
-      vi config.json
+         sudo apt install git cmake libuv1-dev libssl-dev libmicrohttpd-dev build-essential libhwloc-dev
+         mkdir -p ~/comp/monero
+         cd ~/comp/monero
+         git clone https://github.com/vtamara/xmrig
+         cd xmrig
+         git checkout cinep
+         cd build
+         vi config.json
 
   Con el editor de preferencia cambiar en la linea
 
-      passw: "creo"
+         passw: "creo"
 
   "creo" por el nombre del equipo 
       
-      cmake ..
-      make 
+         cmake ..
+         make 
 
 
 Para actualizar en Linux lo más sencillo es borrar el directorio `comp/monero/xmrig` y volver a seguir el procedimiento de instalación.
