@@ -1,2 +1,1 @@
-# base_de_conocimiento_ti
-Base de conocimiento Tecnologias de la Información
+# Base de conocimiento pública de Tecnologias de la Información en CINEP/PPP
