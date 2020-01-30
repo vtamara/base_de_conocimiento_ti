@@ -88,29 +88,31 @@ Para instalar desde la terminal
       passw: "creo"
 
   "creo" por el nombre del equipo 
-      cmake ..
-
+      
+      cmake ..
       make 
 
 
 Para actualizar en Linux lo más sencillo es borrar el directorio `comp/monero/xmrig` y volver a seguir el procedimiento de instalación.
 
-5. Instalación y uso en adJ
-doas pkg_add cmake
+## 5. Instalación y uso en adJ
+      
+         doas pkg_add cmake
 
-mkdir -p ~/comp/monero
-cd ~/comp/monero
-git clone https://github.com/vtamara/xmrig
-cd xmrig
-git checkout cinep
+         mkdir -p ~/comp/monero
+         cd ~/comp/monero
+         git clone https://github.com/vtamara/xmrig
+         cd xmrig
+         git checkout cinep
 
-cd build
-cmake .. -DWITH_ASM=OFF -DWITH_HWLOC=OFF
-make
+         cd build
+         cmake .. -DWITH_ASM=OFF -DWITH_HWLOC=OFF
+         make
 
-vi config.json
+         vi config.json
 
 Con el editor de preferencia cambiar en la linea
 
-passw: "creo"
+         passw: "creo"
 
+En adJ hemos tenido problema con versiones recientes de xmrig en tiempo de ejecución, se están investigando en el momento de este escrito.
