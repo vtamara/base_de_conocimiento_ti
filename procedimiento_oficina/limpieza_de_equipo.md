@@ -38,7 +38,7 @@ El procedimiento a seguir es:
    * Lmpiar con otro trapo el exterior con espuma limpiadora
    * Cerrar
  * Para equipos Portátiles no usar limpia contactos o espuma limpiadora directamente en el teclado, con un trapo humedo de alcohol limpiarlo 
-4. Después de la limpieza física encender computador, correr fusion inventory; agregando el nombre del usuario en el campo de comentarios si no es posbile en el campo para eso.  Correr antimalware en windows 7.   Si se detecta malware crear un tiquete en la categoría vulneración.
+4. Después de la limpieza física encender computador, correr fusion inventory; agregando el nombre del usuario en el campo de comentarios si no es posbile en el campo para eso.  Correr antimalware en windows Si se detecta malware crear un tiquete en la categoría vulneración.
 5. Retornar el equipo al puesto del usuario.
 6. Si la persona está, encender el equipo con el usuario y verificar que opera su escritorio, y que opere Chrome, Office y el correo.   Si la persona no está ingresar con cuenta de gestor de soporte y verifica Chrome y Office.
 7. Ejecutar actualizaciones y solicitarle al usuario no apagar hasta que se completen y reiniciar cuando solicite.
