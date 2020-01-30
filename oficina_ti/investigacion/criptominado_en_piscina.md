@@ -37,13 +37,11 @@ mine en CINEP debe hacerlo a la billetera de la Oficina TI).
 Puede ver el estado del minado dividido de acuerdo a los computadores que están minando en 
 <https://www.supportxmr.com/#/dashboard>
 
-Presione en la parte superior You, en la parte inferior donde dice Enter Payment Addres ponga la dirección de la billetera 
-del CINEP y presione TRACK LIVE STATS
+Donde dice 'Your Monero Address'digite  la dirección de la billetera de la Oficina TI del CINEP y presione TRACK LIVE STATS
 
 En preparación para la tercer fase estamos revisando con periodicidad  
 <https://www.bestchange.com/monero-to-bitcoin.html>  donde se comparan cambiadores de monera a bitcoin (entre otros) e
 históricos del intercambio.
-
 
 
 ## 3. Minado desde Linux
@@ -51,11 +49,9 @@ históricos del intercambio.
 Si ya tiene instalado su minero, abra una terminal (desde el dash escribir terminal y elegir) y en esta escriba:
 
       cd ~/comp/monero/xmrirg/build
-
       ./xmrig
 
 De este manera comenzará a minar usando 3 núcleos del procesador de su computador.
-
 
 
 ## 4. Instalación en Linux 
@@ -79,14 +75,14 @@ Para instalar desde la terminal
          cd xmrig
          git checkout cinep
          cd build
-         vi config.json
+         vi config.json
 
-  Con el editor de preferencia cambiar en la linea
+Con el editor de preferencia cambiar en la linea
 
-         passw: "creo"
+         passw: "creo"
 
-  "creo" por el nombre del equipo 
-      
+`creo` por el nombre del equipo
+  
          cmake ..
          make 
 
